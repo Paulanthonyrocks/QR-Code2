@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(186, 24%, 69%);
+    font-family: 'Outfit', sans-serif;
+    color: black;
+}
+.barcode-wrapper{
+    background:rgb(255, 255, 255) ;
+    width: 20%;
+    height:500px;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+.image{
+    border-radius: 15px;
+    width: 100%;
+    /* margin: 60px auto; */
+    /* border-radius: 15px; */
+    padding: 2px;
+}
+.head-text{
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 15px;
+    color: hsl(218, 44%, 22%);
+}
+.bottom-text{
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 15px;
+    color: hsl(220, 15%, 55%);
+}
+@media screen and (min-width: 370px) {
+    .barcode-wrapper{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .barcode-wrapper{
+       width: 20%;
+    }
+}
